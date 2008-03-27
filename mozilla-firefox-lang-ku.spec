@@ -1,12 +1,12 @@
 %define		_lang		ku
 Summary:	Kurdish resources for Mozilla-firefox
 Name:		mozilla-firefox-lang-%{_lang}
-Version:	2.0.0.11
+Version:	2.0.0.13
 Release:	1
 License:	GPL
 Group:		X11/Applications/Networking
 Source0:	http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/%{version}/linux-i686/xpi/%{_lang}.xpi
-# Source0-md5:	d990fb52d93cd2a637f98af10204001d
+# Source0-md5:	5e87bb2dafd007c1bca98124c13d1b5e
 BuildRequires:	unzip
 Requires:	mozilla-firefox >= %{version}
 Provides:	mozilla-firefox-lang-resources = %{version}
