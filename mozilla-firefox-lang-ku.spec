@@ -1,12 +1,13 @@
 %define		_lang		ku
-Summary:	Kurdish resources for Mozilla-firefox
+Summary:	Kurdish resources for Firefox
+Summary(pl.UTF-8):	Kurdyjskie pliki językowe dla Firefoksa
 Name:		mozilla-firefox-lang-%{_lang}
-Version:	3.0.2
+Version:	3.0.5
 Release:	1
-License:	GPL
+License:	MPL 1.1 or GPL v2+ or LGPL v2.1+
 Group:		I18n
 Source0:	http://releases.mozilla.org/pub/mozilla.org/firefox/releases/%{version}/linux-i686/xpi/%{_lang}.xpi
-# Source0-md5:	86a60004c2ac360e21db06dd68d3060a
+# Source0-md5:	d2052817f495873f775ab65058a53f1f
 BuildRequires:	unzip
 Requires:	mozilla-firefox >= %{version}
 Provides:	mozilla-firefox-lang-resources = %{version}
@@ -17,7 +18,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		_chromedir	%{_firefoxdir}/chrome
 
 %description
-Kurdish resources for Mozilla-firefox.
+Kurdish resources for Firefox.
+
+%description -l pl.UTF-8
+Kurdyjskie pliki językowe dla Firefoksa.
 
 %prep
 
