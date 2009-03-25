@@ -2,12 +2,12 @@
 Summary:	Kurdish resources for Firefox
 Summary(pl.UTF-8):	Kurdyjskie pliki językowe dla Firefoksa
 Name:		mozilla-firefox-lang-%{_lang}
-Version:	3.0.5
+Version:	3.0.7
 Release:	1
 License:	MPL 1.1 or GPL v2+ or LGPL v2.1+
 Group:		I18n
 Source0:	http://releases.mozilla.org/pub/mozilla.org/firefox/releases/%{version}/linux-i686/xpi/%{_lang}.xpi
-# Source0-md5:	d2052817f495873f775ab65058a53f1f
+# Source0-md5:	6b0b1b90d1555f9fc4aa00e928ffa4e9
 BuildRequires:	unzip
 Requires:	mozilla-firefox >= %{version}
 Provides:	mozilla-firefox-lang-resources = %{version}
